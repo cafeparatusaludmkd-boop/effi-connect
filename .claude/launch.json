@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "effi-connect-web",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@effi-connect/web", "dev"],
+      "port": 3100
+    }
+  ]
+}

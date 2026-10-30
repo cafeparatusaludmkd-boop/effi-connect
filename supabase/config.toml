@@ -1,0 +1,38 @@
+# Configuración del CLI de Supabase para Effi Connect.
+project_id = "effi-connect"
+
+# Todas las funciones se autentican solas: token del cron (x-sync-token), firma de Effi o registro público.
+[functions.auto-convertir]
+verify_jwt = false
+
+[functions.auto-vigilancia]
+verify_jwt = false
+
+[functions.effi-sync]
+verify_jwt = false
+
+[functions.effi-webhook]
+verify_jwt = false
+
+[functions.informe-diario]
+verify_jwt = false
+
+[functions.informe-imagen]
+entrypoint = "./functions/informe-imagen/index.tsx"
+verify_jwt = false
+
+[functions.meta-gasto]
+verify_jwt = false
+
+[functions.novedades]
+verify_jwt = false
+
+[functions.proveeduria]
+verify_jwt = false
+
+[functions.registro]
+verify_jwt = false
+
+[functions.trm-diaria]
+verify_jwt = false
+

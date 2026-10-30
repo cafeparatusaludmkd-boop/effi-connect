@@ -1,0 +1,12 @@
+{
+  "name": "effi-connect",
+  "owner": { "name": "El Máster IA" },
+  "plugins": [
+    {
+      "name": "effi-connect",
+      "source": "./",
+      "description": "Despliega Effi Connect paso a paso desde Claude Code: Supabase, cuentas de Effi por país, panel en Vercel y webhooks.",
+      "version": "1.0.0"
+    }
+  ]
+}

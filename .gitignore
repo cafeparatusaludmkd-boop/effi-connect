@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.next/
+dist/
+coverage/
+.vercel/
+.supabase/
+*.log
+.DS_Store
+next-env.d.ts
+*.tsbuildinfo
+supabase/test/.prohibidos.txt
+supabase/.temp/
+# Carpeta de salida de los scripts del kit (SQL generado)
+salida/

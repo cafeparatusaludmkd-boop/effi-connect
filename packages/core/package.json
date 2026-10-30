@@ -1,0 +1,8 @@
+{
+  "name": "@effi-connect/core",
+  "version": "0.1.0",
+  "description": "Reglas de negocio contraentrega de Effi: estados, métricas de guías, novedades, wallet y PyG.",
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "exports": { ".": "./src/index.ts" }
+}

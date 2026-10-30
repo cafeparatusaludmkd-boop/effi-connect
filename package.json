@@ -1,0 +1,23 @@
+{
+  "name": "effi-connect",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plataforma open source de operación y analítica para negocios que venden y despachan con Effi.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "packageManager": "pnpm@10.34.5",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json && pnpm --filter @effi-connect/web typecheck",
+    "dev": "pnpm --filter @effi-connect/web dev",
+    "check": "pnpm typecheck && pnpm test"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "~0.5.0",
+    "@types/node": "^24.0.0",
+    "typescript": "~5.9.3",
+    "vitest": "^4.0.0"
+  }
+}

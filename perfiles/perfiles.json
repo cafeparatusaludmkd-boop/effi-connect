@@ -1,0 +1,51 @@
+{
+  "marca-propia": {
+    "etiqueta": "Marca propia con e-commerce",
+    "tipoCuentaEffi": "tienda",
+    "modulos": ["resumen", "global", "oficina", "guias", "novedades", "dinero", "automatizacion"],
+    "webhooksEffi": [
+      "guia_transporte.tracking",
+      "guia_transporte.crear",
+      "guia_transporte.anular",
+      "orden_v.crear",
+      "orden_v.estado",
+      "remision_v.crear",
+      "novedad_guia_transporte.crear",
+      "gestion_novedad_guia_transporte.crear",
+      "movimiento_dinero_effi.crear"
+    ],
+    "opcionales": ["agente", "informe-diario", "meta-gasto"]
+  },
+  "distribuidor": {
+    "etiqueta": "Distribuidor dropshipping",
+    "tipoCuentaEffi": "tienda",
+    "modulos": ["resumen", "global", "oficina", "guias", "novedades", "dinero", "automatizacion"],
+    "webhooksEffi": [
+      "guia_transporte.tracking",
+      "guia_transporte.crear",
+      "guia_transporte.anular",
+      "orden_v.crear",
+      "orden_v.estado",
+      "remision_v.crear",
+      "novedad_guia_transporte.crear",
+      "gestion_novedad_guia_transporte.crear",
+      "movimiento_dinero_effi.crear"
+    ],
+    "opcionales": ["agente", "informe-diario", "meta-gasto"]
+  },
+  "proveedor": {
+    "etiqueta": "Proveedor dropshipping",
+    "tipoCuentaEffi": "proveeduria",
+    "modulos": ["resumen", "guias", "novedades", "dinero", "proveeduria"],
+    "webhooksEffi": [
+      "guia_transporte.tracking",
+      "guia_transporte.crear",
+      "guia_transporte.anular",
+      "remision_v.crear",
+      "novedad_guia_transporte.crear",
+      "gestion_novedad_guia_transporte.crear",
+      "movimiento_dinero_effi.crear"
+    ],
+    "opcionales": ["informe-diario"]
+  }
+}

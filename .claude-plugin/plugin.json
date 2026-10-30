@@ -1,0 +1,10 @@
+{
+  "name": "effi-connect",
+  "version": "1.0.0",
+  "description": "Despliega Effi Connect paso a paso desde Claude Code: Supabase, cuentas de Effi por país, panel en Vercel y webhooks.",
+  "author": { "name": "El Máster IA" },
+  "homepage": "https://github.com/El-Master-IA/effi-connect",
+  "repository": "https://github.com/El-Master-IA/effi-connect",
+  "license": "AGPL-3.0-only",
+  "keywords": ["effi", "effi-connect", "dropshipping", "webhooks", "supabase", "vercel"]
+}

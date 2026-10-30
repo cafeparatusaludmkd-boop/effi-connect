@@ -1,0 +1,1 @@
+-- (sin cambios: era configuración de un cliente)

@@ -1,0 +1,8 @@
+{
+  "name": "@effi-connect/effi",
+  "version": "0.1.0",
+  "description": "Cliente de la API REST de Effi (rate limit, paginación, ventanas de fecha) y verificación de webhooks HMAC.",
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "exports": { ".": "./src/index.ts" }
+}

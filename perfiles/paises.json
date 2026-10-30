@@ -1,0 +1,13 @@
+{
+  "CO": { "nombre": "Colombia", "divisa": "COP", "tzOffsetMin": -300, "enPanel": true },
+  "EC": { "nombre": "Ecuador", "divisa": "USD", "tzOffsetMin": -300, "enPanel": true },
+  "GT": { "nombre": "Guatemala", "divisa": "GTQ", "tzOffsetMin": -360, "enPanel": true },
+  "DO": {
+    "nombre": "República Dominicana",
+    "divisa": "DOP",
+    "tzOffsetMin": -240,
+    "enPanel": false,
+    "nota": "El SQL de Effi Connect ya acepta DO, pero el panel web todavía no trae su bandera y umbrales (apps/web/src/lib/paises.ts). Funciona con valores por defecto; avisa a la persona."
+  },
+  "CR": { "nombre": "Costa Rica", "divisa": "CRC", "tzOffsetMin": -360, "enPanel": true }
+}
